@@ -1,0 +1,65 @@
+.achtergrond {
+    padding: 0px;
+    margin: 0px;
+    height: 50%;
+    width: 100%;
+    background-position: top;
+    background-size: auto;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+.bgcover {
+    position: relative;
+    text-align: center;
+
+}
+.centered {
+    position: absolute;
+    left:50%;
+    transform: translate(-50%,-50%);
+    top:10%;
+    color: white;
+    text-align: center;
+}
+.overlappers {
+    position: relative;
+    left:50%;
+    transform: translate(-50%,-50%);
+    top:10%;
+    color: black;
+    text-align: center;
+    display: inline-block;
+
+}
+.overlappers img{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+}
+.left {
+   /* position: absolute;*/
+
+ }
+ .container {
+    display: flex;
+    width: 400px;
+    margin: auto;
+    position: absolute;
+    left:52%;
+    transform: translate(-50%,-50%);
+    top: 35%;
+ }
+ .item {
+    background: gray;
+    flex-basis: 100px;
+    height: 100px;
+    margin: 5px;
+    background-color: transparent;
+    
+ }
+ .item img {
+     height: 100%;
+     width: 100%;
+     border-radius: 15px;
+ }
